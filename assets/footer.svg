@@ -1,0 +1,25 @@
+<svg viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer quote">
+  <defs>
+    <pattern id="footGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#111111" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="100" fill="#050505"/>
+  <rect width="1000" height="100" fill="url(#footGrid)"/>
+
+  <!-- quote -->
+  <text x="500" y="40" font-family="'JetBrains Mono','Fira Code',monospace" font-size="13" fill="#6B7280" text-anchor="middle" font-style="italic">"A clean-looking number and a correct number aren't always the same thing."</text>
+
+  <!-- blinking cursor after quote -->
+  <rect x="835" y="28" width="7" height="14" fill="#00D4FF" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- subtle line -->
+  <line x1="300" y1="60" x2="700" y2="60" stroke="#1E1E1E" stroke-width="1"/>
+
+  <!-- bottom labels -->
+  <text x="500" y="82" font-family="'JetBrains Mono',monospace" font-size="9" fill="#2A2A2A" text-anchor="middle">devdutt72 · data analyst · 2026</text>
+</svg>

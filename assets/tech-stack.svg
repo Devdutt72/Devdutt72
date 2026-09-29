@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1000 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech Stack: SQL, Excel, Python, Pandas, NumPy, Matplotlib, Seaborn, Power Query, PowerPoint">
+  <defs>
+    <pattern id="techGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#111111" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="340" fill="#050505"/>
+  <rect width="1000" height="340" fill="url(#techGrid)"/>
+
+  <!-- section label -->
+  <text x="30" y="28" font-family="'JetBrains Mono','Fira Code',monospace" font-size="11" fill="#6B7280" letter-spacing="3">TECH.STACK</text>
+  <line x1="140" y1="22" x2="970" y2="22" stroke="#1E1E1E" stroke-width="1"/>
+
+  <!-- Row 1: Querying & Data Handling -->
+  <text x="30" y="66" font-family="'JetBrains Mono','Fira Code',monospace" font-size="10" fill="#00D4FF" letter-spacing="2">QUERYING &amp; DATA HANDLING</text>
+
+  <!-- SQL -->
+  <rect x="30" y="80" width="120" height="44" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="30" y="80" width="3" height="44" rx="1" fill="#4479A1"/>
+  <text x="93" y="107" font-family="'JetBrains Mono',monospace" font-size="14" fill="#CCCCCC" text-anchor="middle" font-weight="600">SQL</text>
+
+  <!-- Excel -->
+  <rect x="165" y="80" width="120" height="44" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="165" y="80" width="3" height="44" rx="1" fill="#217346"/>
+  <text x="228" y="107" font-family="'JetBrains Mono',monospace" font-size="14" fill="#CCCCCC" text-anchor="middle" font-weight="600">Excel</text>
+
+  <!-- Python -->
+  <rect x="300" y="80" width="120" height="44" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="300" y="80" width="3" height="44" rx="1" fill="#3776AB"/>
+  <text x="363" y="107" font-family="'JetBrains Mono',monospace" font-size="14" fill="#CCCCCC" text-anchor="middle" font-weight="600">Python</text>
+
+  <!-- Pandas -->
+  <rect x="435" y="80" width="120" height="44" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="435" y="80" width="3" height="44" rx="1" fill="#150458"/>
+  <text x="498" y="107" font-family="'JetBrains Mono',monospace" font-size="14" fill="#CCCCCC" text-anchor="middle" font-weight="600">Pandas</text>
+
+  <!-- NumPy -->
+  <rect x="570" y="80" width="120" height="44" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="570" y="80" width="3" height="44" rx="1" fill="#013243"/>
+  <text x="633" y="107" font-family="'JetBrains Mono',monospace" font-size="14" fill="#CCCCCC" text-anchor="middle" font-weight="600">NumPy</text>
+
+  <!-- Row 2: Analysis & Visualization -->
+  <text x="30" y="162" font-family="'JetBrains Mono','Fira Code',monospace" font-size="10" fill="#00D4FF" letter-spacing="2">ANALYSIS &amp; VISUALIZATION</text>
+
+  <!-- Matplotlib -->
+  <rect x="30" y="176" width="160" height="44" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="30" y="176" width="3" height="44" rx="1" fill="#11557C"/>
+  <text x="113" y="203" font-family="'JetBrains Mono',monospace" font-size="13" fill="#CCCCCC" text-anchor="middle" font-weight="600">Matplotlib</text>
+
+  <!-- Seaborn -->
+  <rect x="205" y="176" width="140" height="44" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="205" y="176" width="3" height="44" rx="1" fill="#3776AB"/>
+  <text x="278" y="203" font-family="'JetBrains Mono',monospace" font-size="13" fill="#CCCCCC" text-anchor="middle" font-weight="600">Seaborn</text>
+
+  <!-- Power Query -->
+  <rect x="360" y="176" width="170" height="44" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="360" y="176" width="3" height="44" rx="1" fill="#217346"/>
+  <text x="448" y="203" font-family="'JetBrains Mono',monospace" font-size="13" fill="#CCCCCC" text-anchor="middle" font-weight="600">Power Query</text>
+
+  <!-- Hypothesis Testing -->
+  <rect x="545" y="176" width="200" height="44" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="545" y="176" width="3" height="44" rx="1" fill="#FF6F00"/>
+  <text x="648" y="203" font-family="'JetBrains Mono',monospace" font-size="12" fill="#CCCCCC" text-anchor="middle" font-weight="600">Hypothesis Testing</text>
+
+  <!-- Row 3: Reporting -->
+  <text x="30" y="258" font-family="'JetBrains Mono','Fira Code',monospace" font-size="10" fill="#00D4FF" letter-spacing="2">REPORTING</text>
+
+  <!-- PowerPoint -->
+  <rect x="30" y="272" width="160" height="40" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="30" y="272" width="3" height="40" rx="1" fill="#B7472A"/>
+  <text x="113" y="297" font-family="'JetBrains Mono',monospace" font-size="13" fill="#CCCCCC" text-anchor="middle" font-weight="600">PowerPoint</text>
+
+  <!-- Pivot Tables -->
+  <rect x="205" y="272" width="160" height="40" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="205" y="272" width="3" height="40" rx="1" fill="#217346"/>
+  <text x="288" y="297" font-family="'JetBrains Mono',monospace" font-size="13" fill="#CCCCCC" text-anchor="middle" font-weight="600">Pivot Tables</text>
+
+  <!-- Dynamic Arrays -->
+  <rect x="380" y="272" width="180" height="40" rx="4" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+  <rect x="380" y="272" width="3" height="40" rx="1" fill="#217346"/>
+  <text x="473" y="297" font-family="'JetBrains Mono',monospace" font-size="13" fill="#CCCCCC" text-anchor="middle" font-weight="600">Dynamic Arrays</text>
+
+  <!-- Active indicator dots -->
+  <circle cx="970" cy="66" r="3" fill="#00D4FF" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="970" cy="162" r="3" fill="#00D4FF" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="970" cy="258" r="3" fill="#00D4FF" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

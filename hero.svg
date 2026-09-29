@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Devdutt Chauhan — Data Analyst">
+  <defs>
+    <pattern id="heroGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="280" fill="#050505"/>
+  <rect width="1000" height="280" fill="url(#heroGrid)"/>
+
+  <!-- static scatter plot (left) — data identity, not decoration -->
+  <g stroke="#2A2A2A" stroke-width="1" fill="none">
+    <!-- axes -->
+    <line x1="60" y1="60" x2="60" y2="220"/>
+    <line x1="60" y1="220" x2="220" y2="220"/>
+    <!-- tick marks -->
+    <line x1="55" y1="100" x2="60" y2="100"/>
+    <line x1="55" y1="140" x2="60" y2="140"/>
+    <line x1="55" y1="180" x2="60" y2="180"/>
+    <line x1="100" y1="220" x2="100" y2="225"/>
+    <line x1="140" y1="220" x2="140" y2="225"/>
+    <line x1="180" y1="220" x2="180" y2="225"/>
+  </g>
+  <!-- data points -->
+  <circle cx="85" cy="185" r="3" fill="#FF7A00" opacity="0.5"/>
+  <circle cx="105" cy="165" r="3" fill="#FF7A00" opacity="0.5"/>
+  <circle cx="120" cy="150" r="3" fill="#FF7A00" opacity="0.6"/>
+  <circle cx="145" cy="130" r="3" fill="#FF7A00" opacity="0.5"/>
+  <circle cx="160" cy="115" r="3" fill="#FF7A00" opacity="0.7"/>
+  <circle cx="185" cy="95" r="3" fill="#FF7A00" opacity="0.5"/>
+  <circle cx="200" cy="85" r="3" fill="#FF7A00" opacity="0.6"/>
+  <!-- trend line -->
+  <line x1="75" y1="195" x2="210" y2="78" stroke="#FF7A00" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+
+  <!-- static bar chart (right) -->
+  <g opacity="0.25">
+    <rect x="820" y="150" width="14" height="70" fill="#FF7A00" rx="2"/>
+    <rect x="840" y="110" width="14" height="110" fill="#FF7A00" rx="2"/>
+    <rect x="860" y="140" width="14" height="80" fill="#FF7A00" rx="2"/>
+    <rect x="880" y="90" width="14" height="130" fill="#FF7A00" rx="2"/>
+    <rect x="900" y="120" width="14" height="100" fill="#FF7A00" rx="2"/>
+    <rect x="920" y="80" width="14" height="140" fill="#FF7A00" rx="2"/>
+    <!-- baseline -->
+    <line x1="815" y1="220" x2="940" y2="220" stroke="#2A2A2A" stroke-width="1"/>
+  </g>
+
+  <!-- main text -->
+  <text x="500" y="115" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="40" fill="#FFFFFF" text-anchor="middle" font-weight="700" letter-spacing="3">DEVDUTT CHAUHAN</text>
+
+  <!-- role -->
+  <text x="500" y="155" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="15" fill="#FF7A00" text-anchor="middle" letter-spacing="5">DATA ANALYST</text>
+
+  <!-- tagline -->
+  <text x="500" y="195" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#8A8A8A" text-anchor="middle" letter-spacing="1">before I trust a number, I ask how it was made</text>
+
+  <!-- bottom accent line -->
+  <line x1="380" y1="215" x2="620" y2="215" stroke="#2A2A2A" stroke-width="1"/>
+  <rect x="490" y="212" width="20" height="6" rx="3" fill="#FF7A00" opacity="0.6"/>
+
+  <!-- corner markers -->
+  <g stroke="#2A2A2A" stroke-width="1" fill="none">
+    <path d="M 15,5 L 5,5 5,15"/>
+    <path d="M 985,5 L 995,5 995,15"/>
+    <path d="M 15,275 L 5,275 5,265"/>
+    <path d="M 985,275 L 995,275 995,265"/>
+  </g>
+
+  <!-- coordinates -->
+  <text x="20" y="270" font-family="'JetBrains Mono',monospace" font-size="9" fill="#2A2A2A">sys.data.analyst</text>
+  <text x="920" y="270" font-family="'JetBrains Mono',monospace" font-size="9" fill="#2A2A2A">2026</text>
+</svg>

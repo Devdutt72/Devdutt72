@@ -1,0 +1,60 @@
+<svg viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Data Process: Question, Filter, Calculate, Compare, Visualize, Conclude">
+  <defs>
+    <pattern id="pGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#141414" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="240" fill="#050505"/>
+  <rect width="1000" height="240" fill="url(#pGrid)"/>
+
+  <!-- header -->
+  <text x="30" y="28" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="#8A8A8A" letter-spacing="3">DATA.PROCESS</text>
+  <line x1="200" y1="22" x2="970" y2="22" stroke="#2A2A2A" stroke-width="1"/>
+  <text x="30" y="50" font-family="'JetBrains Mono','Courier New',monospace" font-size="10" fill="#555">question first, conclusion last</text>
+
+  <!-- Row 1 -->
+  <rect x="30" y="68" width="290" height="55" rx="3" fill="#0A0A0A" stroke="#2A2A2A" stroke-width="1"/>
+  <text x="50" y="91" font-family="'JetBrains Mono',monospace" font-size="18" fill="#FF7A00" font-weight="700">01</text>
+  <text x="90" y="91" font-family="'JetBrains Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="600">QUESTION</text>
+  <text x="50" y="110" font-family="'JetBrains Mono',monospace" font-size="9" fill="#8A8A8A">The specific one, not the vague version</text>
+
+  <text x="332" y="98" font-family="'JetBrains Mono',monospace" font-size="12" fill="#2A2A2A">→</text>
+
+  <rect x="350" y="68" width="290" height="55" rx="3" fill="#0A0A0A" stroke="#2A2A2A" stroke-width="1"/>
+  <text x="370" y="91" font-family="'JetBrains Mono',monospace" font-size="18" fill="#FF7A00" font-weight="700">02</text>
+  <text x="410" y="91" font-family="'JetBrains Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="600">FILTER</text>
+  <text x="370" y="110" font-family="'JetBrains Mono',monospace" font-size="9" fill="#8A8A8A">Which rows and columns actually matter</text>
+
+  <text x="652" y="98" font-family="'JetBrains Mono',monospace" font-size="12" fill="#2A2A2A">→</text>
+
+  <rect x="670" y="68" width="300" height="55" rx="3" fill="#0A0A0A" stroke="#2A2A2A" stroke-width="1"/>
+  <text x="690" y="91" font-family="'JetBrains Mono',monospace" font-size="18" fill="#FF7A00" font-weight="700">03</text>
+  <text x="730" y="91" font-family="'JetBrains Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="600">CALCULATE</text>
+  <text x="690" y="110" font-family="'JetBrains Mono',monospace" font-size="9" fill="#8A8A8A">Simplest operation that answers it</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="145" width="290" height="55" rx="3" fill="#0A0A0A" stroke="#2A2A2A" stroke-width="1"/>
+  <text x="50" y="168" font-family="'JetBrains Mono',monospace" font-size="18" fill="#FF7A00" font-weight="700">04</text>
+  <text x="90" y="168" font-family="'JetBrains Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="600">COMPARE</text>
+  <text x="50" y="187" font-family="'JetBrains Mono',monospace" font-size="9" fill="#8A8A8A">A number alone means nothing — vs what?</text>
+
+  <text x="332" y="175" font-family="'JetBrains Mono',monospace" font-size="12" fill="#2A2A2A">→</text>
+
+  <rect x="350" y="145" width="290" height="55" rx="3" fill="#0A0A0A" stroke="#2A2A2A" stroke-width="1"/>
+  <text x="370" y="168" font-family="'JetBrains Mono',monospace" font-size="18" fill="#FF7A00" font-weight="700">05</text>
+  <text x="410" y="168" font-family="'JetBrains Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="600">VISUALIZE</text>
+  <text x="370" y="187" font-family="'JetBrains Mono',monospace" font-size="9" fill="#8A8A8A">The chart that makes it obvious, not pretty</text>
+
+  <text x="652" y="175" font-family="'JetBrains Mono',monospace" font-size="12" fill="#2A2A2A">→</text>
+
+  <rect x="670" y="145" width="300" height="55" rx="3" fill="#0A0A0A" stroke="#2A2A2A" stroke-width="1"/>
+  <rect x="670" y="145" width="300" height="55" rx="3" fill="none" stroke="#FF7A00" stroke-width="1" opacity="0.25"/>
+  <text x="690" y="168" font-family="'JetBrains Mono',monospace" font-size="18" fill="#FF7A00" font-weight="700">06</text>
+  <text x="730" y="168" font-family="'JetBrains Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="600">CONCLUDE</text>
+  <text x="690" y="187" font-family="'JetBrains Mono',monospace" font-size="9" fill="#8A8A8A">One plain sentence — the deliverable</text>
+
+  <!-- bottom label -->
+  <text x="30" y="230" font-family="'JetBrains Mono',monospace" font-size="9" fill="#2A2A2A">question_first → conclusion_last</text>
+</svg>
